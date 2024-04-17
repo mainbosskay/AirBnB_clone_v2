@@ -69,7 +69,7 @@ class BaseModel:
             if type(dictinst[key]) is datetime:
                 dictinst[key] = dictinst[key].isoformat()
         if '_sa_instance_state' in dictinst.keys():
-            del(dictinst['_sa_instance_state'])
+            del (dictinst['_sa_instance_state'])
         return dictinst
 
     def delete(self):
