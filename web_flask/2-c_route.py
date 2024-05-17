@@ -24,7 +24,7 @@ def hbnb_page():
 def c_page(text):
     """C page message displying by value <text>"""
     text = text.replace("_", " ")
-    return f"C (text)"
+    return f"C {text}"
 
 
 if __name__ == "__main__":
