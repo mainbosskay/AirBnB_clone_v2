@@ -37,8 +37,8 @@ def python_page(text):
 
 @app.route("/number/<int:n>")
 def number_page(n):
-        """"Number page displaying n if it is integer"""
-        return f"{n} is a number"
+    """"Number page displaying n if it is integer"""
+    return f"{n} is a number"
 
 
 @app.route("/number_template/<int:n>")
